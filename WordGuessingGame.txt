@@ -1,0 +1,15 @@
+-Array with Strings.
+-Random number generator
+-Word selection based on number generator
+-Scanner
+-Checker
+
+
+for (int i = 5; i >= 0 ; i--) {
+
+                        if (playerGuess.equals("APPLE")){
+                            foundIt = true;
+                        }
+                        else {
+                            System.out.println("Try again " + i + " lives left!");
+                        }
